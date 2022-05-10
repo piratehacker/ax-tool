@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.select-container {
+}
+
+.select__control {
+    @apply bg-base-100 rounded-lg border-base-content border-opacity-30 !important;
+    /*background-color: red !important;*/
+}
+
+.select__value-container {
+    @apply px-4 py-1 text-base-content !important;
+}
+
+.select__single-value {
+    @apply text-base-content !important;
+}
+
+.select__input {
+    @apply text-base-content !important;
+}
+
+.select__menu {
+    @apply bg-base-200 rounded-lg border border-base-content border-opacity-20 !important;
+}
+
+.select__option.select__option--is-focused {
+    @apply bg-base-content bg-opacity-10 !important;
+}
+
+.select__option.select__option--is-selected {
+    @apply bg-primary !important;
+}
+
